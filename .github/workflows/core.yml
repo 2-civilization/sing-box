@@ -55,3 +55,9 @@ jobs:
         with:
           name: sing-box_android
           path: sing-box
+
+      - name: Upload Linux
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: sing-box_Linux-x64
+          path: sing-box
